@@ -1,0 +1,33 @@
+{
+  "name": "obsidian-radiance-theme",
+  "displayName": "Obsidian Radiance Theme",
+  "description": "Obsidian Radiance Dark Mode is a visually stunning and elegantly balanced theme for Visual Studio Code. It takes inspiration from the striking obsidian - a volcanic glass known for its deep, rich darkness. This theme is designed to be easy on the eyes while still providing high contrast and readability.",
+  "icon": "images/icon.png",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "vsce package"
+  },
+  "engines": {
+    "vscode": "^1.52.0"
+  },
+  "publisher": "mateocerquetella",
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MateoCerquetella/obsidian-radiance-theme"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Obsidian Radiance Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Obsidian Radiance Dark.json"
+      }
+    ]
+  },
+  "dependencies": {
+    "vsce": "^2.9.0"
+  }
+}
